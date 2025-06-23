@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+
+        <style>
+        label {
+        height: 100vh; /* Ajusta la altura del body al 100% de la ventana */
+        margin: 0; /* Elimina el margen por defecto del body */
+        display: flex; /* Usa flexbox para centrar el contenido */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        }
+        </style>
+
+    </head>
+
+
+    <body>
+
+        <div style="text-align: right;">
+            For Standart search.
+            <a href="Proyecto0.html">Click here!</a>
+            <p></p>
+            for Image Search.
+            <a href="Proyecto1.html">Click here!</a>
+        </div>
+
+        <label>
+            <form action="https://www.google.com/advanced_search">
+                <p> Busqueda Avanzada de Google</p>
+                <p>Find pages with…</p>
+                All these words:
+                <input name="as_q" type="text">
+                <p></p>
+                This exact word or phrase: 
+                <input name="as_epq" type="text">
+                <p></p>
+                Any of these words:
+                <input name="as_oq" type="text">
+                <p></p>
+                None of these words:
+                <input name="as_eq" type="text">
+                <p></p>
+                <input type="submit" value="submit"> 
+            </form>
+        </label>
+    </body>
+</html>
